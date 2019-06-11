@@ -1,0 +1,38 @@
+/* comments added are for anything I changed with help with tutorial. If no comments, assume that I did on first try */
+
+body {
+  border: 20px solid gray;
+  margin: 20px auto;
+  width: 80%; /* Adujust to % instead of px */
+  font-family: sans-serif;
+  padding: 20px; /* Added padding (looks slightly different */
+  max-width: 700px; /* Added to help with scaling */
+}
+.quote {
+  /* changed name of class */
+  border-left: 4px solid lightgray;
+  /* border-right: 0px;
+  border-top: 0px;
+  border-bottom: 0px; */
+  padding-left: 5px; /* Added padding */
+}
+
+p {
+  /* margin: 3%; */
+}
+
+h2 {
+  /* margin: 3%; */ /* didn't need */
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+.date {
+  color: lightblue;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.row {
+  border-top: 1px solid #8c8b8b;
+}
